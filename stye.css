@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #f4f4f4;
+}
+
+#menu {
+    height: 30px;
+    background-color: rgb(255, 0, 0);
+    margin-top: 0px;
+}
+#menu ul li {
+    list-style-type: none;
+    float: left;
+    width: 120px;
+    text-align: center;
+    line-height:30px;
+}
+#menu ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+ul.menu a:hover{
+    background-color: rgb(251, 0, 0);
+}
+
+#left{
+    float: left;
+    width: 900px;
+}
+.news{
+    margin: 20px 10px 10px 20px;
+}
+.news h3  {
+    margin:0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+a.ten{
+    text-decoration: none;
+}
+
+.news img{
+    border: 10px solid#0000;
+    padding: 5px;
+    float: left;
+}
+.news p a {
+    margin: 5px 2px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.container {
+    width: auto;
+    margin:auto;
+    overflow: hidden;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: #ff0a02; /* màu nền đỏ tương tự hình ảnh */
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.search-input {
+    border: none;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px 0 0 5px;
+    flex: 1;
+}
+
+.search-button {
+    background-color: #2e222179;
+    border: none;
+    padding: 10px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+}
+.header {
+    background: #ff0101;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.main {
+    margin: 0px 40px;
+    width: 900px;
+    padding: 0px;
+    margin: 40px;
+}
+
+.main-news {
+    background: #fff;
+    padding: 55px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.main-news img {
+    width: 100%;
+    height: auto;
+}
+
+.main-news .news-content {
+    padding: 10px 0;
+}
+.main-news .news-content a{
+    text-decoration: none;
+}
+.news-content h2 {
+    color: #333;
+    margin: 10px 0;
+}
+
+.news-content p {
+    color: #666;
+}
+
+.news-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.news-item {
+    background: #fff;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    flex: 1 1 calc(33.333% - 10px);
+    box-sizing: border-box;
+}
+
+.news-item h3 {
+    color: #333;
+    margin: 10px 0;
+}
+.news-grid .news-item a{
+    text-decoration: none;
+}
+.news-item p {
+    color: #666;
+}
+#bottom {
+    height: 40px;
+    background-color: rgb(2, 2, 2);
+    color: #ffffff;
+}
